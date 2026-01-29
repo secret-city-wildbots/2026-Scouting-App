@@ -20,11 +20,11 @@
         width: 30rem;
         /* margin-top: 2rem; */
         border-radius: 2rem;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        box-shadow:
+          0 4px 8px 0 rgba(0, 0, 0, 0.2),
           0 6px 20px 0 rgba(0, 0, 0, 0.19);
         justify-content: center;
         border: 4px solid #4417484b;
-
       }
       .tempspacer {
         height: 20rem;
@@ -32,6 +32,10 @@
       }
       .mt-n1 {
         margin-top: -0.25rem !important;
+      }
+      .scouter-name {
+        max-height: 10rem;
+        overflow-y: auto;
       }
     </style>
   </head>
@@ -69,11 +73,57 @@
         >
       </h1>
     </div>
-    <h1 class="text-center display-4 mt-5" style="font-size: 5rem">
+    <h1
+      class="text-center display-4 mt-5"
+      style="font-size: 5rem; font-weight: 500"
+    >
       🥀Scouting Sheet🥀
     </h1>
+    <div> 
+      <label for="scouter-name" class="form-label h1">Select Scouter Name:</label>
+      <div class="dropdown" style="display: inline">
+        <button
+          class="btn btn-secondary dropdown-toggle btn-lg"
+          type="button"
+          data-bs-toggle="dropdown"
+        >
+          Scouter Name
+        </button>
+        <ul class="dropdown-menu scouter-name dropdown-menu-dark ">
+          <li><a class="dropdown-item" href="#">Abigale L</a></li>
+          <li><a class="dropdown-item" href="#">Ace R</a></li>
+          <li><a class="dropdown-item" href="#">Adelynn W</a></li>
+          <li><a class="dropdown-item" href="#">Celia M</a></li>
+          <li><a class="dropdown-item" href="#">Connor W</a></li>
+          <li><a class="dropdown-item" href="#">Daniel B</a></li>
+          <li><a class="dropdown-item" href="#">Danylo S</a></li>
+          <li><a class="dropdown-item" href="#">Elena V</a></li>
+          <li><a class="dropdown-item" href="#">Grace F</a></li>
+          <li><a class="dropdown-item" href="#">Harry S</a></li>
+          <li><a class="dropdown-item" href="#">Ian S</a></li>
+          <li><a class="dropdown-item" href="#">Isabella H</a></li>
+          <li><a class="dropdown-item" href="#">Jaden B</a></li>
+          <li><a class="dropdown-item" href="#">Julien K</a></li>
+          <li><a class="dropdown-item" href="#">Jasper S</a></li>
+          <li><a class="dropdown-item" href="#">Kaelynn R</a></li>
+          <li><a class="dropdown-item" href="#">Karthik N</a></li>
+          <li><a class="dropdown-item" href="#">Leah T</a></li>
+          <li><a class="dropdown-item" href="#">Matthew A</a></li>
+          <li><a class="dropdown-item" href="#">Maverick F</a></li>
+          <li><a class="dropdown-item" href="#">Max B</a></li>
+          <li><a class="dropdown-item" href="#">Norah P</a></li>
+          <li><a class="dropdown-item" href="#">Regan K</a></li>
+          <li><a class="dropdown-item" href="#">Skyler T</a></li>
+          <li><a class="dropdown-item" href="#">Taryn W</a></li>
+          <li><a class="dropdown-item" href="#">Vansh P</a></li>
+          <li><a class="dropdown-item" href="#">Victor C</a></li>
+          <li><a class="dropdown-item" href="#">Warren M</a></li>
+          <li><a class="dropdown-item" href="#">Woods H</a></li>
+          <li><a class="dropdown-item" href="#">Wyatt B</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="col tempspacer">Bird's eye view of field</div>
     <div class="mt-n1">hi there</div>
-    
   </body>
 </html>
