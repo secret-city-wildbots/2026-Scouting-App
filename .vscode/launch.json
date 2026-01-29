@@ -11,7 +11,7 @@
             "program": "${workspaceFolder}/backend/main.ts",
             "cwd": "${workspaceFolder}",
             "env": {},
-            "runtimeExecutable": "C:\\Users\\jaspe\\.deno\\bin\\deno.EXE",
+            "runtimeExecutable": "C:\\Users\\walla\\.deno\\bin\\deno.EXE",
             "runtimeArgs": [
                 "run",
                 "--unstable",

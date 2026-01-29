@@ -1,18 +1,19 @@
+<!doctype html>
 <html>
   <head>
     <title>Scouting Sheet</title>
-    <link rel="icon" type="image/png" href="./4265-Transparent-Logo.png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/4265-Transparent-Logo.ico"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     <style>
       .menu {
         background-color: rgba(176, 53, 188, 0.374);
@@ -36,6 +37,11 @@
       .scouter-name {
         max-height: 10rem;
         overflow-y: auto;
+      }
+      .r1 {
+        position: absolute;
+        top: 20%;
+        left: 10%;
       }
     </style>
   </head>
@@ -79,8 +85,10 @@
     >
       🥀Scouting Sheet🥀
     </h1>
-    <div> 
-      <label for="scouter-name" class="form-label h1">Select Scouter Name:</label>
+    <div>
+      <label for="scouter-name" class="form-label h1"
+        >Select Scouter Name:</label
+      >
       <div class="dropdown" style="display: inline">
         <button
           class="btn btn-secondary dropdown-toggle btn-lg"
@@ -89,7 +97,7 @@
         >
           Scouter Name
         </button>
-        <ul class="dropdown-menu scouter-name dropdown-menu-dark ">
+        <ul class="dropdown-menu scouter-name dropdown-menu-dark">
           <li><a class="dropdown-item" href="#">Abigale L</a></li>
           <li><a class="dropdown-item" href="#">Ace R</a></li>
           <li><a class="dropdown-item" href="#">Adelynn W</a></li>
@@ -123,7 +131,10 @@
         </ul>
       </div>
     </div>
-    <div class="col tempspacer">Bird's eye view of field</div>
+        <div class="text-center">
+    <img src="/assets/images/Overhead-Field.png" class="img-fluid" alt="Field" />
+        </div>
+        <div class="position-absolute translate-middle r1"><button class="btn btn-lg btn-danger">R1</button></div>
     <div class="mt-n1">hi there</div>
   </body>
 </html>
